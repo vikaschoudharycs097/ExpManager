@@ -51,3 +51,53 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*****************************************
+ * Authors Style sheet
+ * @Vikas Choudhary
+ ****************************************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Titillium web";
+  background-image: linear-gradient(to right, #ff0844, #ff3144, #ff7144);
+  color: white;
+}
+
+#user {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#user h1 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+}
+
+#user p {
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+
+#user a {
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: black;
+  width: 130px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+#user a:hover {
+  background-color: rgb(0,0,0,0);
+}
