@@ -62,11 +62,11 @@ table {
 
 body {
   font-family: "Titillium web";
-  background-image: linear-gradient(to right, #ff0844, #ff3144, #ff7144);
   color: white;
 }
 
 #user {
+  background-image: linear-gradient(to right, #ff0844, #ff3144, #ff7144);
   display: grid;
   justify-items: center;
   align-content: center;
