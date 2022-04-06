@@ -125,7 +125,7 @@ header p {
 #login {
   width: 90%;
   margin: 20px auto;
-  background-color: #333;
+  background-color: #555;
   padding: 15px;
 	box-shadow: 5px 20px 40px #000;
 }
@@ -154,11 +154,12 @@ input {
 
 input[type="submit"] {
   margin-top: 20px;
-  background-color: #ff0844;
+  background-color: #fa2e50;
+  color: white;
 }
 
 input[type="submit"]:hover {
-  background-color: #33dd33;
+  background-color: #fa0840;
 }
 
 input:focus {
