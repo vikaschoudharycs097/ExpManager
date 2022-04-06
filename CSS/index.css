@@ -148,8 +148,8 @@ input {
   margin-bottom: 20px;
   font-size: 1.2em;
   border: none;
-  background-color: #ddd;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 input[type="submit"] {
@@ -159,6 +159,10 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #33dd33;
+}
+
+input:focus {
+  background-color: #eee;
 }
 
 footer {
