@@ -122,7 +122,7 @@ header p {
   font-size: 1.35em;
 }
 
-#login {
+#login, #signup {
   width: 90%;
   margin: 20px auto;
   background-color: #656565;
@@ -181,7 +181,7 @@ footer p {
     font-size: 3.6em; 
   }
 
-  #login {
+  #login, #signup {
     width: 440px;
     margin: 40px auto;
   }
@@ -196,7 +196,7 @@ footer p {
     font-size: 1.6em;
   }
 
-  #login {
+  #login, #signup {
     width: 500px;
     margin: 50px auto;
     padding: 45px;
@@ -207,6 +207,10 @@ footer p {
   }
 
   #login label, #login input {
+    font-size: 1.3em;
+  }
+
+  #signup label, #signup input {
     font-size: 1.3em;
   }
 }
