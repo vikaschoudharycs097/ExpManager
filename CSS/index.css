@@ -105,11 +105,11 @@ body {
 header {
   background-color: #ff0844;
   text-align: center;
+  padding: 40px 0;
 }
 
 header h1 {
   font-size: 3em;
-  padding-top: 30px;
 }
 
 header a {
@@ -118,7 +118,6 @@ header a {
 }
 
 header p {
-  padding-bottom: 30px;
   font-size: 1.35em;
 }
 
@@ -142,6 +141,17 @@ form label {
   margin: 10px 0;
 }
 
+form span, form a {
+  font-size: 1.15em;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+form a {
+  color: #83c8eb;
+  text-decoration: none;
+}
+
 input {
   width: 100%;
   padding: 10px;
@@ -150,6 +160,10 @@ input {
   border: none;
   background-color: white;
   color: black;
+}
+
+input[type="password"] {
+  margin-bottom: 5px;
 }
 
 input[type="submit"] {
@@ -192,8 +206,8 @@ footer p {
     font-size: 3.9em;
   }
 
-  #user p {
-    font-size: 1.6em;
+  header {
+    padding: 25px;
   }
 
   #login, #signup {
