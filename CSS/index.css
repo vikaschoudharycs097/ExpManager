@@ -163,7 +163,7 @@ input {
   color: black;
 }
 
-input[type="password"] {
+#login input[type="password"] {
   margin-bottom: 5px;
 }
 
