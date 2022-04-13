@@ -130,13 +130,6 @@ header p {
 	box-shadow: 5px 20px 40px #000;
 }
 
-#new_type {
-  width: 90%;
-  margin: 20px auto;
-  background-color: #ddd;
-  padding: 25px;
-}
-
 form h2 {
   font-size: 2.2em;
   padding: 20px 0;
@@ -181,13 +174,6 @@ input[type="submit"] {
   color: white;
 }
 
-#new_type input[type="submit"] {
-  width: 100px;
-  background-color: #2c50de;
-  color: white;
-  margin: 0;
-}
-
 input[type="submit"]:hover {
   background-color: #fa0840;
 }
@@ -211,7 +197,7 @@ footer p {
     font-size: 3.6em; 
   }
 
-  #login, #signup, #new_type {
+  #login, #signup {
     width: 440px;
     margin: 40px auto;
   }
@@ -226,7 +212,7 @@ footer p {
     padding: 25px;
   }
 
-  #login, #signup, #new_type {
+  #login, #signup {
     width: 500px;
     margin: 50px auto;
     padding: 45px;
