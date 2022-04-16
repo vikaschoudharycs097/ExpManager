@@ -60,6 +60,10 @@ table {
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Titillium web";
   color: white;
@@ -182,6 +186,106 @@ input:focus {
   background-color: #eee;
 }
 
+.dashboard {
+  display: grid;
+  grid-template-columns: 0px auto;
+  justify-items: center;
+  align-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.grid-width-mobile {
+  grid-template-columns: 200px 100%;
+}
+
+.dash-side {
+  visibility: hidden;
+  background-color: #444;
+  height: inherit;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.open {
+  visibility: visible;
+}
+
+#user-info span {
+  display: inline-block;
+  padding: 50px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+#user-info p {
+  font-size: 1.05em;
+}
+
+#menu h2 {
+  font-size: 2.3em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#menu ul {
+  padding: 10px 10px;
+}
+
+#menu li {
+  background-color: #fff;
+  color: royalblue;
+  margin: 20px 10px;
+  padding: 10px;
+  font-size: 1.15em;
+  border-radius: 15px;
+}
+
+#menu li:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+#dash-main {
+  color: black;
+  width: 100%;
+}
+
+#heading {
+  padding: 20px 5px 5px 5px;
+  color: royalblue;
+}
+
+#heading h1 {
+  font-size: 2.8em;
+  padding-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#heading p {
+  font-size: 1.35em;
+  text-align: center;
+}
+
+#heading hr {
+  display: none;
+}
+
+#menu-icon {
+  padding: 5px 10px;
+  background-color: royalblue;
+}
+
+#menu-icon li {
+  display: block;
+  margin: 5px 0;
+  width: 35px;
+  height: 5px;
+  transition: 0.3s;
+  background-color: white;
+}
+
 footer {
   background-color: #333;
   padding: 20px 0;
@@ -228,5 +332,28 @@ footer p {
 
   #signup label, #signup input {
     font-size: 1.3em;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .dashboard {
+    grid-template-columns: 200px auto;
+  }
+
+  .dash-side {
+    visibility: visible;
+  }
+
+  #dash-main {
+    width: 85%;
+  }
+
+  #heading hr {
+    display: block;
+    border: 1px solid royalblue;
+  }
+
+  #menu-icon {
+    display: none;
   }
 }
