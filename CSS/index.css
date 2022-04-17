@@ -231,16 +231,18 @@ input:focus {
   padding: 10px 10px;
 }
 
-#menu li {
+#menu li a{
+  display: block;
   background-color: #fff;
   color: royalblue;
   margin: 20px 10px;
   padding: 10px;
   font-size: 1.15em;
   border-radius: 15px;
+  text-decoration: none;
 }
 
-#menu li:hover {
+#menu li a:hover, #menu li a.selected {
   background-color: royalblue;
   color: white;
 }
