@@ -132,6 +132,7 @@ header p {
   background-color: #656565;
   padding: 15px;
 	box-shadow: 5px 20px 40px #000;
+  border-radius: 5px;
 }
 
 form h2 {
@@ -157,15 +158,21 @@ form a {
   text-decoration: none;
 }
 
+form a:hover {
+  color: #9cffb7;
+  text-decoration: underline;
+}
+
 input {
   width: 100%;
-  padding: 10px;
+  padding: 6px;
   margin-bottom: 20px;
   font-size: 1.2em;
   border: none;
   background-color: white;
   color: black;
   font-family: inherit;
+  border-radius: 5px;
 }
 
 #login input[type="password"] {
@@ -176,6 +183,7 @@ input[type="submit"] {
   margin-top: 20px;
   background-color: #fa2e50;
   color: white;
+  border-radius: 5px;
 }
 
 input[type="submit"]:hover {
