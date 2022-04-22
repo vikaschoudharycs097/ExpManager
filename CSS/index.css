@@ -61,7 +61,7 @@ table {
 }
 
 html, body {
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -126,7 +126,7 @@ header p {
   font-size: 1.35em;
 }
 
-#login, #signup {
+#login, #signup, #forgot {
   width: 90%;
   margin: 20px auto;
   background-color: #656565;
@@ -147,10 +147,14 @@ form label {
   margin: 10px 0;
 }
 
-form span, form a {
+form span {
   font-size: 1.15em;
   display: inline-block;
   margin-bottom: 20px;
+}
+
+#forgot span {
+  margin-bottom: 10px;
 }
 
 form a {
@@ -310,9 +314,10 @@ footer p {
     font-size: 3.6em; 
   }
 
-  #login, #signup {
+  #login, #signup, #forgot {
     width: 440px;
     margin: 40px auto;
+    padding: 40px;
   }
 }
 
@@ -325,7 +330,7 @@ footer p {
     padding: 25px;
   }
 
-  #login, #signup {
+  #login, #signup, #forgot {
     width: 500px;
     margin: 50px auto;
     padding: 45px;
